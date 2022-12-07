@@ -14,7 +14,6 @@ export const Filter = () => {
           type="text"
           name="filter"
           onChange={e => {
-            console.log(e.target.value);
             dispatch(setFilter(e.target.value));
           }}
           value={filter}
